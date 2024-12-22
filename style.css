@@ -1,6 +1,10 @@
 body{
     background-color: #fa8f8f;
 }
+img{
+    height: 400px;
+    width: 400px;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -16,7 +20,7 @@ body{
     font-size: 20px;
 }
 
-#homeButton {
+.button{
     background-color: #1b7c58;
     border: none;
     border-radius: 20%;
@@ -25,6 +29,10 @@ body{
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
